@@ -1,0 +1,12 @@
+[26-May-2021 12:38:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/cybexoapps/public_html/survey/bootstrap/app.php:14
+Stack trace:
+#0 /home/cybexoapps/public_html/survey/artisan(20): require_once()
+#1 {main}
+  thrown in /home/cybexoapps/public_html/survey/bootstrap/app.php on line 14
+[27-May-2021 06:18:18 UTC] PHP Warning:  require(/home/cybexoapps/public_html/survey/vendor/autoload.php): failed to open stream: No such file or directory in /home/cybexoapps/public_html/survey/artisan on line 18
+[27-May-2021 06:18:18 UTC] PHP Fatal error:  require(): Failed opening required '/home/cybexoapps/public_html/survey/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/cybexoapps/public_html/survey/artisan on line 18
+[27-May-2021 06:18:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/cybexoapps/public_html/survey/bootstrap/app.php:14
+Stack trace:
+#0 /home/cybexoapps/public_html/survey/artisan(20): require_once()
+#1 {main}
+  thrown in /home/cybexoapps/public_html/survey/bootstrap/app.php on line 14
